@@ -1,6 +1,5 @@
 
-	<hr /><br /><br />
-
-	Bienvenue dans la page d'acceuil de notre application Web. Vous pouvez gérer d'une manière très aisée la base de données des étudiants.
-	En accédant à la liste, vous pouvez voir le détail d'un étudiant et le modifier ou le supprimer. A partir du menu, vous pouvez ajouter un nouveau étudiant ou afficher toute la liste. Testez!!
-	
+        <hr style="background-color: brown;height:1px">
+        <p >Bienvenue dans la page d'acceuil de notre application Web . Vous pouvez g&eacute;rer d'une mani&egrave;re tres aisee la base de donn&eacute;es des &eacute;tudiants.
+           En accedant a la liste ,vous pouvez voir le d&eacute;tail d'un &eacute;tudiant et le modifier ou le supprimer. A partir du menu,vous pouvez ajouter un nouveau &eacute;tudiant ou afficher toute la liste. Testez!!
+        </p>

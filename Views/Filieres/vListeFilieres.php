@@ -1,7 +1,7 @@
 <?php
 $keys = array_keys(get_object_vars($filieres[0]));
 ?>
-
+    <hr style="background-color: brown;height:1px">
 <table>
     <tr>
         <th>Id</th>

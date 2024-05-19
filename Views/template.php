@@ -3,11 +3,15 @@
     <body>
         <table>
             <tr>
-                <td class="menu" style="background-color: brown"><?php include("Views/menu.php"); ?></td>
                 <td class="content">
                     <h1><?= $title ?></h1>
                     <?= $view ?>
                 </td>
+
+                <td class="menu" style="background-color: brown">
+                    <?php include("Views/menu.php"); ?>
+                </td>
+                
             </tr>
         </table>
     </body>

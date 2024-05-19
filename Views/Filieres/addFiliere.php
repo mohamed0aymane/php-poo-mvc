@@ -1,4 +1,5 @@
 <h2>Ajouter Filière</h2>
+<hr style="background-color: brown;height:1px">
 <form action="index.php?action=add_filiere" method="POST">
     <label for="codeF">Code:</label>
     <input type="text" id="codeF" name="CodeF">

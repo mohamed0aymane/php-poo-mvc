@@ -1,4 +1,5 @@
 <h2>Ajouter Département</h2>
+<hr style="background-color: brown;height:1px">
 <form action="index.php?action=add_department" method="POST">
     <label for="codeD">Code:</label>
     <input type="text" id="codeD" name="CodeD">

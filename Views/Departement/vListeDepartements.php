@@ -1,13 +1,8 @@
-<header>
-    <link href="../Publics/liste.css" rel="stylesheet">
-</header>
 
 <?php
 $keys = array_keys(get_object_vars($departements[0]));
-?>
-<body>
-    
-
+?> 
+<hr style="background-color: brown;height:1px">
 <table>
     <thead>
     <tr>
@@ -41,4 +36,3 @@ $keys = array_keys(get_object_vars($departements[0]));
     </tr>
     </tbody>
 </table>
-</body>

@@ -1,4 +1,5 @@
 <h2>Modifier Étudiant</h2>
+<hr style="background-color: brown;height:1px">
 <form action="index.php?action=modify_etudiant&code=<?= $etudiant->getCodeE() ?>" method="POST">
     <label for="nom">Nom:  </label><br>
     <input type="text" id="nom" name="Nom" value="<?= $etudiant->getNom() ?>"><br><br>

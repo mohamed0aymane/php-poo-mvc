@@ -88,7 +88,7 @@ function etudiantAction($title, $faculteManager) {
         header('Location: index.php?action=login');
         exit;
     }
-    $view = "Views/vListeEtudiants.php";
+    $view = "Views/Etudiant/vListeEtudiants.php";
     $etudiants = $faculteManager->listeEtudiants();
     $variables = ['title' => $title, 'etudiants' => $etudiants];
     render($view, $variables);
@@ -99,7 +99,7 @@ function filiereAction($title, $faculteManager) {
         header('Location: index.php?action=login');
         exit;
     }
-    $view = "Views/vListeFilieres.php";
+    $view = "Views/Filieres/vListeFilieres.php";
     $filieres = $faculteManager->listeFilieres();
     $variables = ['title' => $title, 'filieres' => $filieres];
     render($view, $variables);
@@ -110,7 +110,7 @@ function departementAction($title, $faculteManager) {
         header('Location: index.php?action=login');
         exit;
     }
-    $view = "Views/vListeDepartements.php";
+    $view = "Views/Departement/vListeDepartements.php";
     $departements = $faculteManager->listeDepartements();
     $variables = ['title' => $title, 'departements' => $departements];
     render($view, $variables);
@@ -145,7 +145,7 @@ function loginAction($title) {
 function viewDepartmentAction($title, $faculteManager) {
     $code = $_GET['code'];
     $departement = $faculteManager->getDepartement($code);
-    $view = "Views/viewDepartment.php";
+    $view = "Views/Departement/viewDepartment.php";
     $variables = ['title' => $title, 'departement' => $departement];
     render($view, $variables);
 }
@@ -159,7 +159,7 @@ function modifyDepartmentAction($title, $faculteManager) {
         header('Location: index.php?action=departement');
         exit;
     }
-    $view = "Views/modifyDepartment.php";
+    $view = "Views/Departement/modifyDepartment.php";
     $variables = ['title' => $title, 'departement' => $departement];
     render($view, $variables);
 }
@@ -178,7 +178,7 @@ function addDepartmentAction($title, $faculteManager) {
         header('Location: index.php?action=departement');
         exit;
     }
-    $view = "Views/addDepartment.php";
+    $view = "Views/Departement/addDepartment.php";
     $variables = ['title' => $title];
     render($view, $variables);
 }
@@ -186,7 +186,7 @@ function addDepartmentAction($title, $faculteManager) {
 function viewEtudiantAction($title, $faculteManager) {
     $code = $_GET['code'];
     $etudiant = $faculteManager->getEtudiant($code);
-    $view = "Views/viewEtudiant.php";
+    $view = "Views/Etudiant/viewEtudiant.php";
     $variables = ['title' => $title, 'etudiant' => $etudiant];
     render($view, $variables);
 }
@@ -203,7 +203,7 @@ function modifyEtudiantAction($title, $faculteManager) {
         header('Location: index.php?action=etudiant');
         exit;
     }
-    $view = "Views/modifyEtudiant.php";
+    $view = "Views/Etudiant/modifyEtudiant.php";
     $variables = ['title' => $title, 'etudiant' => $etudiant];
     render($view, $variables);
 }
@@ -222,7 +222,7 @@ function addEtudiantAction($title, $faculteManager) {
         header('Location: index.php?action=etudiant');
         exit;
     }
-    $view = "Views/addEtudiant.php";
+    $view = "Views/Etudiant/addEtudiant.php";
     $variables = ['title' => $title];
     render($view, $variables);
 }
@@ -230,7 +230,7 @@ function addEtudiantAction($title, $faculteManager) {
 function viewFiliereAction($title, $faculteManager) {
     $code = $_GET['code'];
     $filiere = $faculteManager->getFiliere($code);
-    $view = "Views/viewFiliere.php";
+    $view = "Views/Filiere/viewFiliere.php";
     $variables = ['title' => $title, 'filiere' => $filiere];
     render($view, $variables);
 }
@@ -244,7 +244,7 @@ function modifyFiliereAction($title, $faculteManager) {
         header('Location: index.php?action=filiere');
         exit;
     }
-    $view = "Views/modifyFiliere.php";
+    $view = "Views/Filiere/modifyFiliere.php";
     $variables = ['title' => $title, 'filiere' => $filiere];
     render($view, $variables);
 }
@@ -263,7 +263,7 @@ function addFiliereAction($title, $faculteManager) {
         header('Location: index.php?action=filiere');
         exit;
     }
-    $view = "Views/addFiliere.php";
+    $view = "Views/Filiere/addFiliere.php";
     $variables = ['title' => $title];
     render($view, $variables);
 }

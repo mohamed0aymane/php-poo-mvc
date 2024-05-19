@@ -10,6 +10,7 @@
     <?php if (isset($error) && $error): ?>
         <p style="color: red;"><?= $error ?></p>
     <?php endif; ?>
+    <hr style="background-color: brown;height:1px">
     <form action="index.php?action=login" method="POST">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required> <br><br>
