@@ -39,4 +39,5 @@ function afficherDate($lang){
             <h5> <?= afficherDate("FR")?> </h5>
         </div>   
     </div>
+    <hr style="background-color: brown;height:2px">
 </body>

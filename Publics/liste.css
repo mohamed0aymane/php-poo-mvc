@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid crimson;
+    color: rgb(5, 5, 156);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+table{
+   justify-content: end;
+    width: 600px;
+    height: 300px;
+    margin-bottom: 30px ;
+}
+body{
+    background:red;
+}

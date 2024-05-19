@@ -5,7 +5,7 @@
  
  <link rel ="stylesheet" href="Publics/style.css" >
 
- <hr style="border-color: brown;">
+ <hr style="background-color: brown;height:2px">
 <footer >
   <p style="font-size: large;">
       &copy; copyright: SMI6 <?= $t["year"] ?> <br>

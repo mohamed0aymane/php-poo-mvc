@@ -38,7 +38,7 @@ h5 {
 }
 footer {
     text-align: center;
-    color: red;
+    color: brown;
 }
 
 .menu {
@@ -74,7 +74,7 @@ footer {
 }
 
 .menu a:hover {
-    background-color: #34495e; /* Slightly lighter on hover */
+    background-color: brown; /* Slightly lighter on hover */
 }
 
 .content {

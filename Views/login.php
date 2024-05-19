@@ -12,10 +12,10 @@
     <?php endif; ?>
     <form action="index.php?action=login" method="POST">
         <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required> -admin- 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required> -admin- 
-        <button type="submit">Login</button>
+        <input type="text" id="username" name="username" required> <br><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required> <br><br>
+        <button type="submit" style="background-color: green; color:white">Login</button>
     </form>
 </body>
 </html>

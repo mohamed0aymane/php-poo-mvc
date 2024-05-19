@@ -1,10 +1,17 @@
+<header>
+    <link href="../Publics/liste.css" rel="stylesheet">
+</header>
+
 <?php
 $keys = array_keys(get_object_vars($departements[0]));
 ?>
+<body>
+    
 
 <table>
+    <thead>
     <tr>
-        <th>#</th>
+        <th>Id</th>
         <?php foreach ($keys as $key): ?>
             <th><?= $key ?></th>
         <?php endforeach; ?>
@@ -12,6 +19,9 @@ $keys = array_keys(get_object_vars($departements[0]));
         <th>Nom department</th>
         <th>Action</th>
     </tr>
+    </thead>
+
+    <tbody>
     <?php foreach($departements as $index => $d): ?>
     <tr>
         <td><?= $index + 1 ?></td>
@@ -26,7 +36,9 @@ $keys = array_keys(get_object_vars($departements[0]));
     <?php endforeach; ?>
     <tr>
         <td colspan="<?= count($keys) + 2 ?>" style="text-align: center;">
-            <a href="index.php?action=add_department" class="add-button">+ Ajouter</a>
+            <a href="index.php?action=add_department" class="add-button" align='center'>+ Ajouter</a>
         </td>
     </tr>
+    </tbody>
 </table>
+</body>

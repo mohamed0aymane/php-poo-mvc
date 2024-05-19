@@ -4,7 +4,7 @@ $keys = array_keys(get_object_vars($filieres[0]));
 
 <table>
     <tr>
-        <th>#</th>
+        <th>Id</th>
         <?php foreach ($keys as $key): ?>
             <th><?= $key ?></th>
         <?php endforeach; ?>
